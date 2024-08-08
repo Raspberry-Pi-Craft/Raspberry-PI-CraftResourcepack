@@ -15,5 +15,10 @@ jobs:
         type: 'zip'
         filename: 'raspberry.zip'
         exclusions: '*.git* LICENSE'
+    - name: Upload Release
+      uses: ncipollo/release-action@v1.12.0
+      with:
+        artifacts: "raspberry.zip"
+        token: ${{ secrets.GITHUB_TOKEN }}
 
           
