@@ -19,17 +19,18 @@ jobs:
         exclusions: '*.git* LICENSE'
     - name: Get current date
       id: date
-      run: echo "::set-output name=date::$(date +'%Y-%m-%d')"
+      run: echo echo "date=$(date +'%Y-%m-%d')" >> $GITHUB_OUTPUT
     - name: Create Tag
-      uses: laputansoft/github-tag-action@v4.6
+      id: tag_version
+      uses: mathieudutour/github-tag-action@v6.2
       with:
         github_token: ${{ env.github-token }}
-        tag: versoin-${{ steps.date.outputs.date }}
     - name: Create Release
       uses: ncipollo/release-action@v1.14.0
       with:
         artifacts: "raspberry.zip"
         makeLatest: true
         token:  ${{ secrets.GITHUB_TOKEN }}
+        tag: ${{ steps.tag_version.outputs.new_tag }}
 
           
