@@ -21,6 +21,5 @@ jobs:
       uses: ncipollo/release-action@v1.14.0
       with:
         artifacts: "raspberry.zip"
-        token: ${{ secrets.GITHUB_TOKEN }}
 
           
