@@ -35,7 +35,7 @@
     ],
     "fallback": {
       "type": "minecraft:model",
-      "model": "minecraft:item/netherite_sword"
+      "model": "minecraft:item/diamond_sword"
     }
   }
 }
