@@ -1,0 +1,41 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {
+        "when": [
+          "Katana",
+          "katana"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "raspberry:item/katana"
+        }
+      },
+      {
+        "when": "Elucidator",
+        "model": {
+          "type": "minecraft:model",
+          "model": "totem_pets:item/elucidator"
+        }
+      },
+      {
+        "when": [
+          "Reaper Scythe",
+          "Reaper scythe",
+          "reaper scythe"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "totem_pets:item/reaper_scythe"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/diamond_sword"
+    }
+  }
+}
