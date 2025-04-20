@@ -5,10 +5,7 @@
     "component": "minecraft:custom_name",
     "cases": [
       {
-        "when": [
-          "Katana",
-          "katana"
-        ],
+        "when": "Katana",
         "model": {
           "type": "minecraft:model",
           "model": "raspberry:item/katana"
@@ -18,18 +15,14 @@
         "when": "Elucidator",
         "model": {
           "type": "minecraft:model",
-          "model": "totem_pets:item/elucidator"
+          "model": "raspberry:item/elucidator"
         }
       },
       {
-        "when": [
-          "Reaper Scythe",
-          "Reaper scythe",
-          "reaper scythe"
-        ],
+        "when": "Reaper Scythe",
         "model": {
           "type": "minecraft:model",
-          "model": "totem_pets:item/reaper_scythe"
+          "model": "raspberry:item/reaper_scythe"
         }
       }
     ],
