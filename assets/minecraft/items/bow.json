@@ -1,0 +1,153 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "minecraft:component",
+        "component": "minecraft:custom_name",
+        "cases": [
+            {
+                "when": "Madoka's Bow",
+                "model": {
+                    "type": "minecraft:condition",
+                    "on_false": {
+                        "model": {
+                            "type": "composite",
+                            "models": [
+                                {
+                                    "type": "model",
+                                    "model": "raspberry:madoka_bow/0"
+                                },
+                                {
+                                    "type": "model",
+                                    "model": "raspberry:madoka_bow/1"
+                                },
+                                {
+                                    "type": "model",
+                                    "model": "raspberry:madoka_bow/2"
+                                },
+                                {
+                                    "type": "model",
+                                    "model": "raspberry:madoka_bow/3"
+                                },
+                                {
+                                    "type": "model",
+                                    "model": "raspberry:madoka_bow/4"
+                                },
+                                {
+                                    "type": "model",
+                                    "model": "raspberry:madoka_bow/5"
+                                },
+                                {
+                                    "type": "model",
+                                    "model": "raspberry:madoka_bow/6"
+                                },
+                                {
+                                    "type": "model",
+                                    "model": "raspberry:madoka_bow/7"
+                                },
+                                {
+                                    "type": "model",
+                                    "model": "raspberry:madoka_bow/8"
+                                },
+                                {
+                                    "type": "model",
+                                    "model": "raspberry:madoka_bow/9"
+                                },
+                                {
+                                    "type": "model",
+                                    "model": "raspberry:madoka_bow/10"
+                                },
+                                {
+                                    "type": "model",
+                                    "model": "raspberry:madoka_bow/11"
+                                },
+                                {
+                                    "type": "model",
+                                    "model": "raspberry:madoka_bow/12"
+                                },
+                                {
+                                    "type": "model",
+                                    "model": "raspberry:madoka_bow/13"
+                                },
+                                {
+                                    "type": "model",
+                                    "model": "raspberry:madoka_bow/14"
+                                },
+                                {
+                                    "type": "model",
+                                    "model": "raspberry:madoka_bow/15"
+                                },
+                                {
+                                    "type": "model",
+                                    "model": "raspberry:madoka_bow/16"
+                                },
+                                {
+                                    "type": "model",
+                                    "model": "raspberry:madoka_bow/17"
+                                }
+                            ]
+                        }
+                    },
+                    "on_true": {
+                        "type": "minecraft:range_dispatch",
+                        "entries": [
+                            {
+                                "model": {
+                                    "type": "minecraft:model",
+                                    "model": "raspberry:item/madoka_bow_pulling_1"
+                                },
+                                "threshold": 0.65
+                            },
+                            {
+                                "model": {
+                                    "type": "minecraft:model",
+                                    "model": "raspberry:item/madoka_bow_pulling_2"
+                                },
+                                "threshold": 0.9
+                            }
+                        ],
+                        "fallback": {
+                            "type": "minecraft:model",
+                            "model": "raspberry:item/madoka_bow_pulling_0"
+                        },
+                        "property": "minecraft:use_duration",
+                        "scale": 0.05
+                    },
+                    "property": "minecraft:using_item"
+                }
+            }
+        ],
+        "fallback": {
+            "type": "minecraft:condition",
+            "on_false": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/bow"
+            },
+            "on_true": {
+                "type": "minecraft:range_dispatch",
+                "entries": [
+                    {
+                        "model": {
+                            "type": "minecraft:model",
+                            "model": "minecraft:item/bow_pulling_1"
+                        },
+                        "threshold": 0.65
+                    },
+                    {
+                        "model": {
+                            "type": "minecraft:model",
+                            "model": "minecraft:item/bow_pulling_2"
+                        },
+                        "threshold": 0.9
+                    }
+                ],
+                "fallback": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/bow_pulling_0"
+                },
+                "property": "minecraft:use_duration",
+                "scale": 0.05
+            },
+            "property": "minecraft:using_item"
+        }
+    }
+}

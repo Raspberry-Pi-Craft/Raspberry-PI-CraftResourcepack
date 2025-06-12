@@ -1,0 +1,79 @@
+{
+	"model": {
+		"type": "composite",
+		"models": [
+			{
+				"type": "model",
+				"model": "raspberry:madoka_bow/0"
+			},
+			{
+				"type": "model",
+				"model": "raspberry:madoka_bow/1"
+			},
+			{
+				"type": "model",
+				"model": "raspberry:madoka_bow/2"
+			},
+			{
+				"type": "model",
+				"model": "raspberry:madoka_bow/3"
+			},
+			{
+				"type": "model",
+				"model": "raspberry:madoka_bow/4"
+			},
+			{
+				"type": "model",
+				"model": "raspberry:madoka_bow/5"
+			},
+			{
+				"type": "model",
+				"model": "raspberry:madoka_bow/6"
+			},
+			{
+				"type": "model",
+				"model": "raspberry:madoka_bow/7"
+			},
+			{
+				"type": "model",
+				"model": "raspberry:madoka_bow/8"
+			},
+			{
+				"type": "model",
+				"model": "raspberry:madoka_bow/9"
+			},
+			{
+				"type": "model",
+				"model": "raspberry:madoka_bow/10"
+			},
+			{
+				"type": "model",
+				"model": "raspberry:madoka_bow/11"
+			},
+			{
+				"type": "model",
+				"model": "raspberry:madoka_bow/12"
+			},
+			{
+				"type": "model",
+				"model": "raspberry:madoka_bow/13"
+			},
+			{
+				"type": "model",
+				"model": "raspberry:madoka_bow/14"
+			},
+			{
+				"type": "model",
+				"model": "raspberry:madoka_bow/15"
+			},
+			{
+				"type": "model",
+				"model": "raspberry:madoka_bow/16"
+			},
+			{
+				"type": "model",
+				"model": "raspberry:madoka_bow/17"
+			}
+		]
+	}
+}
