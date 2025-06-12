@@ -1,0 +1,84 @@
+{
+	"textures": {
+		"0": "item/madoka_bow"
+	},
+	"elements": [
+		{
+			"from": [1.93938, 7.24242, 7.24242],
+			"to": [14.06062, 8.75758, 8.75758],
+			"light_emission": 0,
+			"faces": {
+				"north": {
+					"uv": [1, 5, 3, 16],
+					"rotation": 90,
+					"texture": "#0"
+				},
+				"east": {
+					"uv": [0, 15, 1, 16],
+					"texture": "#0"
+				},
+				"south": {
+					"uv": [1, 5, 3, 16],
+					"rotation": 90,
+					"texture": "#0"
+				},
+				"west": {
+					"uv": [0, 15, 1, 16],
+					"texture": "#0"
+				},
+				"up": {
+					"uv": [1, 5, 3, 16],
+					"rotation": 90,
+					"texture": "#0"
+				},
+				"down": {
+					"uv": [1, 5, 3, 16],
+					"rotation": 90,
+					"texture": "#0"
+				}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [27.5, -90, 0],
+			"translation": [0, -13.83866, 9.786],
+			"scale": [0.66, 0.66, 0.66]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [27.5, -90, 0],
+			"translation": [0, -13.83866, 9.786],
+			"scale": [0.66, 0.66, 0.66]
+		},
+		"firstperson_righthand": {
+			"rotation": [27.5, -90, 0],
+			"translation": [-3, -2.91933, 7.518],
+			"scale": [0.33, 0.33, 0.33]
+		},
+		"firstperson_lefthand": {
+			"rotation": [152.5, 90, 0],
+			"translation": [-3, 8.91933, 7.518],
+			"scale": [0.33, 0.33, 0.33]
+		},
+		"ground": {
+			"rotation": [0, 0, -27.5],
+			"translation": [2.268, 4.08067, -2],
+			"scale": [0.33, 0.33, 0.33]
+		},
+		"gui": {
+			"rotation": [180, 0, -162.5],
+			"translation": [-5.78932, -3.58188, 2],
+			"scale": [0.33, 0.33, 0.33]
+		},
+		"head": {
+			"rotation": [180, 0, -177.5],
+			"translation": [-9.09762, -22.98458, 4],
+			"scale": [0.66, 0.66, 0.66]
+		},
+		"fixed": {
+			"rotation": [0, 0, 17.5],
+			"translation": [8.26291, -3.131, -0.45],
+			"scale": [0.528, 0.528, 0.528]
+		}
+	}
+}

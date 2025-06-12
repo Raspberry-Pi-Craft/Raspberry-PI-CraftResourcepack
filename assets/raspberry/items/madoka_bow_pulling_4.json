@@ -1,0 +1,91 @@
+{
+	"model": {
+		"type": "composite",
+		"models": [
+			{
+				"type": "model",
+				"model": "raspberry:madoka_bow_pulling_4/0"
+			},
+			{
+				"type": "model",
+				"model": "raspberry:madoka_bow_pulling_4/1"
+			},
+			{
+				"type": "model",
+				"model": "raspberry:madoka_bow_pulling_4/2"
+			},
+			{
+				"type": "model",
+				"model": "raspberry:madoka_bow_pulling_4/3"
+			},
+			{
+				"type": "model",
+				"model": "raspberry:madoka_bow_pulling_4/4"
+			},
+			{
+				"type": "model",
+				"model": "raspberry:madoka_bow_pulling_4/5"
+			},
+			{
+				"type": "model",
+				"model": "raspberry:madoka_bow_pulling_4/6"
+			},
+			{
+				"type": "model",
+				"model": "raspberry:madoka_bow_pulling_4/7"
+			},
+			{
+				"type": "model",
+				"model": "raspberry:madoka_bow_pulling_4/8"
+			},
+			{
+				"type": "model",
+				"model": "raspberry:madoka_bow_pulling_4/9"
+			},
+			{
+				"type": "model",
+				"model": "raspberry:madoka_bow_pulling_4/10"
+			},
+			{
+				"type": "model",
+				"model": "raspberry:madoka_bow_pulling_4/11"
+			},
+			{
+				"type": "model",
+				"model": "raspberry:madoka_bow_pulling_4/12"
+			},
+			{
+				"type": "model",
+				"model": "raspberry:madoka_bow_pulling_4/13"
+			},
+			{
+				"type": "model",
+				"model": "raspberry:madoka_bow_pulling_4/14"
+			},
+			{
+				"type": "model",
+				"model": "raspberry:madoka_bow_pulling_4/15"
+			},
+			{
+				"type": "model",
+				"model": "raspberry:madoka_bow_pulling_4/16"
+			},
+			{
+				"type": "model",
+				"model": "raspberry:madoka_bow_pulling_4/17"
+			},
+			{
+				"type": "model",
+				"model": "raspberry:madoka_bow_pulling_4/18"
+			},
+			{
+				"type": "model",
+				"model": "raspberry:madoka_bow_pulling_4/19"
+			},
+			{
+				"type": "model",
+				"model": "raspberry:madoka_bow_pulling_4/20"
+			}
+		]
+	}
+}
